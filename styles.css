@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: url("https://media.giphy.com/media/1wmOyZYoGzz003R03Y/giphy.gif");
+    margin: 0
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+
+#yesButton {
+    position: absolute;
+    scroll-margin-right: 150px;
+    text-align: center;
+}
+.gif_container{
+    position: absolute;
+    margin-bottom: 30px;
+    width: 28%;
+    right: 10px;
+    background: cover;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.388); /* Add a semi-transparent white background */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add rounded corners */
+    margin-bottom: 20px; /* Add margin to separate from the GIF */
+    border:#FF8C9A solid;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    text-align: left;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    line-height: 1.4em;
+    font-size: 28px;
+    width: 7;
+
+   /* font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: start;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: space-around;*/
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.btn {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    border: rgba(255, 255, 221, 0.407) solid;
+    text-align: right;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; /* Add cursor pointer for better user experience */
+}
+
+/* Add a hover effect for the buttons */
+.btn:hover {
+    background-color: #FF8C9A;
+}

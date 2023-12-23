@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://media.giphy.com/media/aXNjCb6cXtL8c/giphy.gif"); /* Background color for the entire page */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: bold;
+    color: #f7f4f4; /* Text color */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px; /* Add padding to create a box around the text */
+    background-color: #e7a2c1; /* Background color for the box */
+    border-radius: 10px; /* Add rounded corners to the box */
+    box-shadow: 0 0 10px rgba(182, 123, 143, 0.532); /* Add a subtle shadow */
+}
+
+.gif_container {
+    margin-top: 20px;
+}
+
+/* Optional: Add styles for the image */
+.gif_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Optional: Add more styles as needed */
